@@ -35,6 +35,14 @@ h1, h2 {
     color: var(--semidark);
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
 .twopanes {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,6 +75,9 @@ h1, h2 {
 .imagebox {
     border-radius: 1rem;
     overflow: hidden;
+    height: 15em;
+    display: flex;
+    align-items: flex-end;
 }
 
 .computerimage {
